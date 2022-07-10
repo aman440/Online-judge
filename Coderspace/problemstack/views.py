@@ -4,7 +4,7 @@ from django.shortcuts import render
 # Create your views here.
 
 def index(request): 
-    return HttpResponse('Hello index')
+    return render(request, 'problemstack/index.html')
 def login(request): 
     return HttpResponse('Hello login')
 def register(request): 
