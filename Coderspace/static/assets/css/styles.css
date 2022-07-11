@@ -1,0 +1,75 @@
+#user-name {
+  padding: 20px;
+}
+
+.main-content {
+  display: flex;
+  margin: 2%;
+  /*background-color: greenyellow;*/
+  min-height: 70vh;
+}
+
+.problem-content {
+  flex: 70;
+  border: solid;
+  padding: 3%;
+}
+
+.dashboard-content {
+  flex: 30;
+  border: solid;
+  height: 70vh;
+  border-left: none;
+}
+
+.id-col {
+  /*text-align: center;*/
+  width: 10%;
+}
+
+.name-col {
+  width: 45%;
+}
+
+.tags-col {
+  text-align: center;
+}
+
+.difficulty-col {
+  text-align: center;
+  width: 10%;
+}
+
+#top-nav {
+  padding: 1%;
+}
+
+.dashboard-content h1 {
+  text-align: center;
+}
+
+.dashboard-content hr {
+  height: 1%;
+  color: red;
+  /*border: 100px;*/
+}
+
+.status {
+  display: flex;
+  flex-direction: column;
+  min-height: 20vh;
+}
+
+.total-problems {
+  background-color: #eabbeb;
+  min-height: 5vh;
+  /*width: 100%;*/
+  margin: 3%;
+}
+
+.total-problems span {
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 180%;
+}
+
